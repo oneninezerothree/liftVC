@@ -1,0 +1,217 @@
+.clear
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+}
+a,
+button,
+input,
+textarea {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+ul li{
+  list-style: none;
+}
+:not(input):not(textarea) {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+header {
+  padding: 0;
+  width: 100%;
+  background: #89be48;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  margin: auto;
+}
+.header-content {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.header-content {
+  position: relative;
+}
+#page,
+.header-content {
+  margin: 0 auto;
+  width: 100%;
+}
+.header-title {
+  margin: 0 auto;
+  line-height: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  width: 80%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.search-panel {
+  background-color: #f2f2f2;
+  padding: 0.5rem 0;
+}
+#search-bar {
+  width: 94%;
+  height: 3rem;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+.search-panel .searchfouce,
+.search-panel .searchinput {
+  width: 100%;
+  height: 3rem;
+  background-color: #fff;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAjVBMVEUAAACSkpKTk5OTk5ORkZGSkpKEhISTk5ORkZGTk5OSkpKRkZGRkZGRkZGSkpKRkZGTk5OTk5ORkZGTk5OSkpKSkpKSkpKTk5ORkZGRkZGRkZGSkpKPj4+UlJSUlJSQkJCSkpKRkZGSkpKRkZGQkJCWlpaRkZGSkpKWlpaTk5OSkpKSkpKRkZGenp6YmJhw30CvAAAALXRSTlMAxbmZWg0FdiT6ybROvKKNUjMpFd7az7+rVkhCEO7Tyn5jXzwvGfqWjYBsNhx4c16/AAAA0ElEQVQ4y82R2Q6CMBBFKVVa24IIsskO4i7//3kaYpSZEo0vxvPEzRya6a3xV3hMmtKmiTU99mnh1GmrKiHcqfmqcPjjswmW+pyvT69wKTXDio7j2K0VEmYEbpYImC2C9yIKXrDMkMAoiBvTQKQRFBzt1hIKMRbONogtwfUmEtYcekhwGMwUVdcFHDe9xT8gWDhuosm5gdmHq2evVd/LuWaw4DAo/ozYbHc1dcOjgsSxLUh9f7zFYGD81HXVsC00MF8Y2Scjen+GyikSMNz4ETeZVQrjcGuzcAAAAABJRU5ErkJggg==");
+  background-repeat: no-repeat;
+  background-position: 38% 0.5rem;
+  background-size: auto 70%;
+  border: 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1.3em;
+  color: #1f5350;
+  font-family: Microsoft YaHei;
+  margin: 0;
+  padding-left: 3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+.search-panel .sch-cancel {
+  width: 15%;
+  height: 3rem;
+  display: block;
+  float: right;
+  background: none;
+  background-color: transparent;
+  border: 0;
+  text-align: right;
+  font-size: 1.5rem;
+  color: #83b842;
+  line-height: 3rem;
+}
+form input,
+form select {
+  height: 100%;
+  background-color: #fff;
+  border: 0;
+  width: 90%;
+  font-family: Microsoft YaHei;
+}
+element.style {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  height: 541.6px;
+  overflow-y: scroll;
+}
+.life-module{
+  overflow: hidden;
+  background:#dfdfdf;
+}
+
+.life-goodsTip {
+  width: 10rem;
+  margin: auto;
+  text-align: center;
+}
+.life-goodsTip dl:last-child {
+  line-height: 2.4rem;
+}
+.life-goodsTip .life-goodsMark {
+  font-size: 1.8rem;
+  letter-spacing: .2rem;
+  position: relative;
+}
+.life-goodsTip dl {
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1.4rem;
+}
+.life-goodsUl {
+  background: #fff;
+}
+
+.clearFix:after, .clearFix:before {
+  display:block;
+  clear:both;
+  content: "";
+  visibility: hidden;
+  height:0;
+}
+.clearFix {
+  *zoom: 1;
+}
+.onlyStyle li {
+  float: left;
+  width: 33%;
+  text-align: center;
+  border: 1px solid #f1f1f1;
+  margin: 0 0 -1px -1px;
+}
+.life-goodsUl li {
+  float: left;
+  width: 33%;
+  text-align: center;
+  border: 1px solid #f1f1f1;
+  margin: 0 0 -1px -1px;
+}
+.onlyStyle li img {
+  width: 33%;
+  width: 60%!important;
+  margin: auto;
+  padding-top: 1rem;
+  height:auto;
+}
+.swiper-slide img, img[lazy=loaded] {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.onlyStyle li dl {
+  height: 2rem;
+  line-height: 2rem;
+  padding-bottom: 1rem;
+  padding-top: .5rem;
+  font-size: 1.3rem;
+}
+.life-goodsAll .life-goodsBox {
+  margin-top: 2rem;
+}
+.life-goodsTip dl:last-child {
+  line-height: 2.4rem;
+}
+.life-goodsTip .life-goodsMark {
+  font-size: 1.8rem;
+  letter-spacing: .2rem;
+  position
+  : relative;
+}
+.life-goodsTip {
+  width: 10rem;
+  margin: auto;
+  text-align: center;
+}
+.life-goodsUl {
+  background: #fff;
+}
